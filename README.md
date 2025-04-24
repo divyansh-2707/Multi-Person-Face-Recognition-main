@@ -1,4 +1,4 @@
-# DARPAN: AI-Powered Face Recognition for Smart Education
+# DARPAN: AI-Powered Multi Face Recognition for Smart Education
 
 DARPAN is an AI-based facial recognition system designed to modernize attendance management in educational institutions. By leveraging deep learning and computer vision, DARPAN eliminates proxy attendance, improves campus security, and enables transparent, automated reporting for government audits. It helps to implement government policies in a better way.
 The following project is deployed in docker.
