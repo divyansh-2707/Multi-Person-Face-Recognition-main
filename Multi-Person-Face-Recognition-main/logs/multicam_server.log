@@ -1,0 +1,63 @@
+2025-04-24 08:52:48 - INFO -  [INFO] loading encodings...
+2025-04-24 08:53:47 - INFO -  [INFO] loading encodings...
+2025-04-24 08:53:48 - INFO -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+2025-04-24 08:53:48 - INFO -  [33mPress CTRL+C to quit[0m
+2025-04-24 08:56:54 - INFO -  172.17.0.1 - - [24/Apr/2025 08:56:54] "GET / HTTP/1.1" 200 -
+2025-04-24 08:56:54 - INFO -  172.17.0.1 - - [24/Apr/2025 08:56:54] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-04-24 08:56:55 - INFO -  172.17.0.1 - - [24/Apr/2025 08:56:55] "GET /video_raw HTTP/1.1" 200 -
+2025-04-24 08:56:56 - INFO -  172.17.0.1 - - [24/Apr/2025 08:56:56] "GET /video_processed HTTP/1.1" 200 -
+2025-04-24 08:56:56 - INFO -  172.17.0.1 - - [24/Apr/2025 08:56:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-24 08:57:01 - INFO -  172.17.0.1 - - [24/Apr/2025 08:57:01] "POST /submit HTTP/1.1" 200 -
+2025-04-24 08:57:05 - INFO -  172.17.0.1 - - [24/Apr/2025 08:57:05] "POST /submit HTTP/1.1" 200 -
+2025-04-24 08:57:11 - INFO -  172.17.0.1 - - [24/Apr/2025 08:57:11] "POST /submit HTTP/1.1" 200 -
+2025-04-24 08:57:26 - INFO -  172.17.0.1 - - [24/Apr/2025 08:57:26] "POST /submit HTTP/1.1" 200 -
+2025-04-24 08:57:28 - INFO -  172.17.0.1 - - [24/Apr/2025 08:57:28] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2025-04-24 08:57:50 - INFO -  172.17.0.1 - - [24/Apr/2025 08:57:50] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2025-04-24 09:05:15 - INFO -  172.17.0.1 - - [24/Apr/2025 09:05:15] "POST /submit HTTP/1.1" 200 -
+2025-04-24 09:05:23 - INFO -  172.17.0.1 - - [24/Apr/2025 09:05:23] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2025-04-24 09:05:44 - INFO -  172.17.0.1 - - [24/Apr/2025 09:05:44] "GET / HTTP/1.1" 200 -
+2025-04-24 09:05:44 - INFO -  172.17.0.1 - - [24/Apr/2025 09:05:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-24 09:06:39 - INFO -  172.17.0.1 - - [24/Apr/2025 09:06:39] "GET / HTTP/1.1" 200 -
+2025-04-24 09:06:40 - INFO -  172.17.0.1 - - [24/Apr/2025 09:06:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-24 09:08:31 - INFO -  Dataframe stored in csv file
+2025-04-24 09:08:31 - INFO -  172.17.0.1 - - [24/Apr/2025 09:08:31] "POST /submit HTTP/1.1" 200 -
+2025-04-24 09:09:16 - INFO -  [INFO] loading encodings...
+2025-04-24 09:09:17 - INFO -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+2025-04-24 09:09:17 - INFO -  [33mPress CTRL+C to quit[0m
+2025-04-24 09:09:29 - INFO -  172.17.0.1 - - [24/Apr/2025 09:09:29] "GET / HTTP/1.1" 200 -
+2025-04-24 09:09:29 - INFO -  172.17.0.1 - - [24/Apr/2025 09:09:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-24 09:09:30 - INFO -  172.17.0.1 - - [24/Apr/2025 09:09:30] "GET /video_raw HTTP/1.1" 200 -
+2025-04-24 09:09:30 - INFO -  172.17.0.1 - - [24/Apr/2025 09:09:30] "GET /video_processed HTTP/1.1" 200 -
+2025-04-24 09:56:04 - INFO -  [INFO] loading encodings...
+2025-04-24 09:56:05 - INFO -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+2025-04-24 09:56:05 - INFO -  [33mPress CTRL+C to quit[0m
+2025-04-24 09:56:13 - INFO -  172.17.0.1 - - [24/Apr/2025 09:56:13] "GET / HTTP/1.1" 200 -
+2025-04-24 09:56:13 - INFO -  172.17.0.1 - - [24/Apr/2025 09:56:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-24 09:56:13 - INFO -  172.17.0.1 - - [24/Apr/2025 09:56:13] "GET /video_raw HTTP/1.1" 200 -
+2025-04-24 09:56:14 - INFO -  172.17.0.1 - - [24/Apr/2025 09:56:14] "GET /video_processed HTTP/1.1" 200 -
+2025-04-24 09:56:14 - INFO -  172.17.0.1 - - [24/Apr/2025 09:56:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-24 09:59:21 - INFO -  172.17.0.1 - - [24/Apr/2025 09:59:21] "POST /submit HTTP/1.1" 200 -
+2025-04-24 10:08:33 - INFO -  172.17.0.1 - - [24/Apr/2025 10:08:33] "POST /submit HTTP/1.1" 200 -
+2025-04-24 10:31:42 - INFO -  172.17.0.1 - - [24/Apr/2025 10:31:42] "POST /submit HTTP/1.1" 200 -
+2025-04-24 10:32:57 - INFO -  172.17.0.1 - - [24/Apr/2025 10:32:57] "POST /submit HTTP/1.1" 200 -
+2025-04-24 10:41:23 - INFO -  172.17.0.1 - - [24/Apr/2025 10:41:23] "POST /submit HTTP/1.1" 200 -
+2025-04-24 10:46:48 - INFO -  172.17.0.1 - - [24/Apr/2025 10:46:48] "POST /submit HTTP/1.1" 200 -
+2025-04-24 10:55:49 - INFO -  172.17.0.1 - - [24/Apr/2025 10:55:49] "GET / HTTP/1.1" 200 -
+2025-04-24 10:55:50 - INFO -  172.17.0.1 - - [24/Apr/2025 10:55:50] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-04-24 10:55:50 - INFO -  172.17.0.1 - - [24/Apr/2025 10:55:50] "GET /video_raw HTTP/1.1" 200 -
+2025-04-24 10:55:51 - INFO -  172.17.0.1 - - [24/Apr/2025 10:55:51] "GET /video_processed HTTP/1.1" 200 -
+2025-04-24 10:56:09 - INFO -  172.17.0.1 - - [24/Apr/2025 10:56:09] "GET / HTTP/1.1" 200 -
+2025-04-24 10:56:09 - INFO -  172.17.0.1 - - [24/Apr/2025 10:56:09] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-04-24 10:56:09 - INFO -  172.17.0.1 - - [24/Apr/2025 10:56:09] "GET /video_raw HTTP/1.1" 200 -
+2025-04-24 10:56:10 - INFO -  172.17.0.1 - - [24/Apr/2025 10:56:10] "GET /video_processed HTTP/1.1" 200 -
+2025-04-24 11:00:13 - INFO -  172.17.0.1 - - [24/Apr/2025 11:00:13] "GET / HTTP/1.1" 200 -
+2025-04-24 11:00:13 - INFO -  172.17.0.1 - - [24/Apr/2025 11:00:13] "GET /static/css/styles.css HTTP/1.1" 200 -
