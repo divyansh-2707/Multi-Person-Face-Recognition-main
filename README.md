@@ -1,58 +1,67 @@
-# DARPAN: AI-Powered Multi Face Recognition for Smart Education
+# 🛡️ SurvivorScan - Smart Disaster Victim Identification System
 
-DARPAN is an AI-based facial recognition system designed to modernize attendance management in educational institutions. By leveraging deep learning and computer vision, DARPAN eliminates proxy attendance, improves campus security, and enables transparent, automated reporting for government audits. It helps to implement government policies in a better way.
-The following project is deployed in docker.
----
+SurvivorScan is a facial recognition-based emergency response solution designed to **identify survivors** during disasters, **track missing persons**, and **alert authorities in real-time**. Built with the intent of supporting rescue missions, this system provides a **centralized dashboard** for efficient victim recognition using image uploads and live camera feeds.
 
-##  Problem Statement
+## 🚀 Features
 
-Educational institutions face challenges like:
-- Proxy attendance in 34% of institutions (ASER 2023)
-- Manual attendance consuming 15% of teaching time
-- Outdated surveillance risking campus security
-- Misuse of mid-day meal funds due to fake attendance
+- 🔍 **Victim Identification via Image Upload**
+  - Upload an image of a person (rescued or found)
+  - Matches face with known database (preloaded/family input)
+  - Returns name, location, and status if matched
 
----
+- 📸 **Real-Time Detection from Live Camera**
+  - Uses a webcam or external feed
+  - Detects multiple faces in one frame
+  - Triggers alert if missing person is identified
 
-##  Solution
+- 📊 **User Dashboard**
+  - Total number of known, unknown, and missing persons
+  - Real-time alerts when someone is identified
+  - Face match history and image log
 
-**DARPAN** provides:
-- Real-time facial recognition-based attendance
-- Fraud detection (proxy attendance prevention)
-- Automated attendance reports for audits
-- An interactive dashboard for monitoring
-- Hardware-accelerated face detection and matching
+- 🌐 **Coordinates of Detection**
+  - Captures geolocation (latitude & longitude) where face was detected
+  - Useful for rescue mapping and victim tracking
 
----
-
-## 🛠️ Tech Stack
-
-- **Programming Language:** Python
-- **Deep Learning Framework:** TensorFlow
-- **Face Detection & Recognition:** Dlib, MTCNN
-- **Image & Video Processing:** OpenCV
-- **Data Handling:** NumPy, Pandas
-- **Hardware Acceleration:** NVIDIA CUDA (optional)
+- 🔔 **Live Alerts/Notifications**
+  - Alerts for matched identities
+  - UI pop-ups with name, match confidence, and location
 
 ---
 
-##  Project Workflow
+## 🧠 Tech Stack
 
-1. **Capture Video Stream**
-2. **Face Detection (MTCNN / Dlib)**
-3. **Face Recognition & Matching**
-4. **Display Results on Web Interface**
-5. **Store Attendance Data**
-6. **Real-time Monitoring & Alerts**
-7. **Dashboard Display**
-8. **Automated Government Report Generation**
+| Technology       | Purpose                         |
+|------------------|----------------------------------|
+| Python           | Backend logic and detection     |
+| OpenCV           | Image processing & face capture |
+| face_recognition | Facial recognition and matching |
+| Flask            | API & Web App backend           |
+| HTML/CSS/JS      | Frontend UI                     |
+| SQLite / CSV     | Temporary storage (can be scaled to PostgreSQL) |
+| Geopy / Location | Get GPS coordinates             |
 
 ---
 
-## ⚙️ Setup & Installation
+---
 
-### 1️⃣ Clone the Repository
+## ✅ How to Run
+
+1. **Clone the Repository:**
 
 ```bash
-git clone https://github.com/yourusername/darpan-face-attendance.git
-cd darpan-face-attendance
+git clone https://github.com/your-username/SurvivorScan.git
+cd SurvivorScan
+Install Requirements:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the Flask App:
+
+bash
+Copy code
+python app.py
+Access the Web App:
+Open http://127.0.0.1:5000 in your browser.
+
